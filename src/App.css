@@ -1,38 +1,113 @@
-.App {
-  text-align: center;
+.email-template {
+  width: 2310px;
+  height: 960px;
+  border-radius: 40px;
+  border: 3px solid #81b3e1;
+  opacity: 0px;
+  overflow: hidden;
+  position: absolute;
+  top: 42px;
+  left: 47px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.left {
+  width: 2310px;
+  height: 960px;
+  top: 42px;
+  left: 47px;
+  border-radius: 40px 0px 0px 0px;
+  opacity: 0px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border: 3px solid #81b3e1;
+  background: var(--M-Gradient, #013565);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.right {
+  width: 2604px;
+  height: 2604px;
+  top: -676px;
+  left: 1324px;
+  gap: 0px;
+  opacity: 0px;
+  border-radius: 50%;
+  position: absolute;
+  background: #ffffff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.email-content {
+  width: 1623px;
+  height: 175px;
+  top: 418px;
+  left: 124px;
+  gap: 0px;
+  opacity: 0px;
+  position: absolute;
+  font-family: TT Hoves Pro Trial;
+  font-size: 120px;
+  font-weight: 300;
+  line-height: 151.2px;
+  text-align: left;
+  text-align: left;
+  color: #ffffff;
 }
 
-.App-link {
-  color: #61dafb;
+.right-footer {
+  width: 732px;
+  height: 174px;
+  top: 793px;
+  left: 1567px;
+  gap: 0px;
+  opacity: 0px;
+  position: absolute;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.svg1 {
+  width: 93.4px;
+  height: 93.77px;
+  left: 21.81px;
+  gap: 0px;
+  opacity: 0px;
+  position: absolute;
+}
+
+.svg2 {
+  width: 93.4px;
+  height: 93.77px;
+  top: 21.86px;
+  gap: 0px;
+  left: 0;
+  opacity: 0px;
+  position: absolute;
+}
+
+.migranium {
+  width: 582.98px;
+  height: 100.12px;
+  top: 15.13px;
+  left: 149.02px;
+  gap: 0px;
+  opacity: 0px;
+  position: absolute;
+}
+
+.spaces {
+  width: 273.33px;
+  height: 64.21px;
+  top: 109.79px;
+  left: 458.44px;
+  gap: 0px;
+  opacity: 0px;
+  position: absolute;
+}
+
+.cancel {
+  width: 21.35px;
+  height: 21.4px;
+  top: 126.91px;
+  left: 424.27px;
+  gap: 0px;
+  opacity: 0px;
+  position: absolute;
 }
