@@ -4,7 +4,6 @@ import EmailTemplate from "./Pages/EmailTemplate";
 function App() {
   return (
     <div className="App">
-      Email Templates
       <EmailTemplate />
     </div>
   );
